@@ -99,11 +99,11 @@
 <img width="538" alt="image" src="https://user-images.githubusercontent.com/46294305/203250583-9e58771c-f610-4a7b-b258-f46d5ee9c78b.png">
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/46294305/203250357-bd5b5a57-9c2f-411c-a928-d3f403959735.png">
 
-
 4. Request / Response
 <img width="481" alt="image" src="https://user-images.githubusercontent.com/46294305/203250036-efddc457-cc47-4742-9c95-8e3c224d409c.png">
 
 5. Circuit Breaker
+<img width="309" alt="image" src="https://user-images.githubusercontent.com/46294305/203252547-3730520e-3709-42e2-9e64-30056c088ab5.png">
 
 6. Gateway
 <img width="275" alt="image" src="https://user-images.githubusercontent.com/46294305/203251398-f304faa9-4e61-484c-8882-5d5c7e3eb651.png">
