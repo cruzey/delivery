@@ -92,16 +92,21 @@
 # 분석/설계
 
 1. Saga
+    - policy handler에 의해 publish된 이벤트들에 대해 개별적으로 subscribe하여 처리
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/46294305/203247571-e3d102a0-b943-4d06-a4a0-ad08be6c720d.png">
 <img width="394" alt="image" src="https://user-images.githubusercontent.com/46294305/203247688-316ce4c1-363d-42ae-9a06-b1fe769f90d4.png">
 
 2. CQRS
+    - 데이터베이스의 변경과 조회의 기능을 나눠서 구현하여 결과적일관성을 추구
+<img width="453" alt="image" src="https://user-images.githubusercontent.com/46294305/203255830-3d81ed55-8d66-48b1-bfff-42b45aac9e4c.png">
+<img width="448" alt="image" src="https://user-images.githubusercontent.com/46294305/203255882-2d9acc67-ed57-4300-883d-3121bc4bdc43.png">
 
 3. Compensation / Correlation
 <img width="538" alt="image" src="https://user-images.githubusercontent.com/46294305/203250583-9e58771c-f610-4a7b-b258-f46d5ee9c78b.png">
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/46294305/203250357-bd5b5a57-9c2f-411c-a928-d3f403959735.png">
 
 4. Request / Response
+    주문이벤트가 발생하면 payment에서 지불이 완료될 때까지 요청자는 대기한다
 <img width="481" alt="image" src="https://user-images.githubusercontent.com/46294305/203250036-efddc457-cc47-4742-9c95-8e3c224d409c.png">
 
 5. Circuit Breaker
