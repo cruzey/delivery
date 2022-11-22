@@ -88,4 +88,20 @@
 
 # 분석/설계
 
+1. Saga
+<img width="510" alt="image" src="https://user-images.githubusercontent.com/46294305/203247571-e3d102a0-b943-4d06-a4a0-ad08be6c720d.png">
+<img width="394" alt="image" src="https://user-images.githubusercontent.com/46294305/203247688-316ce4c1-363d-42ae-9a06-b1fe769f90d4.png">
+
+2. CQRS
+
+3. Compensation / Correlation
+
+4. Request / Response
+
+5. Circuit Breaker
+
+6. Gateway
+
+
+
 
