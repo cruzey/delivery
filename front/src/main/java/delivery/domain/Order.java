@@ -108,16 +108,15 @@ public class Order  {
 
         */
 
-        /** Example 2:  finding and process
+        // Example 2:  finding and process
         
-        repository().findById(accepted.get???()).ifPresent(order->{
+        repository().findById(accepted.getId()).ifPresent(order->{
             
-            order // do something
+            order.status = "order success";
             repository().save(order);
 
 
          });
-        */
 
         
     }
