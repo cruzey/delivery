@@ -104,16 +104,16 @@ public class StoreOrder  {
 
         */
 
-        /** Example 2:  finding and process
+        // Example 2:  finding and process
         
-        repository().findById(paid.get???()).ifPresent(storeOrder->{
+        repository().findById(paid.getId()).ifPresent(storeOrder->{
             
-            storeOrder // do something
+            storeOrder.orderId = paid.getOrderId();
+            storeOrder.status = "paid";
             repository().save(storeOrder);
 
 
          });
-        */
 
         
     }
@@ -125,16 +125,17 @@ public class StoreOrder  {
 
         */
 
-        /** Example 2:  finding and process
+        // Example 2:  finding and process
         
-        repository().findById(orderCanceled.get???()).ifPresent(storeOrder->{
-            
-            storeOrder // do something
-            repository().save(storeOrder);
+        StoreOrder st = repository().findByOrderId((orderCanceled.getId())); 
+        if(st.status == "paid"){
+            st.status = "orderCanceled";
+            repository().save(st);
+        }
+        else{
+            return;
+        }
 
-
-         });
-        */
 
         
     }
@@ -146,16 +147,16 @@ public class StoreOrder  {
 
         */
 
-        /** Example 2:  finding and process
+        // Example 2:  finding and process
         
-        repository().findById(delivered.get???()).ifPresent(storeOrder->{
+        repository().findById(delivered.getId()).ifPresent(storeOrder->{
             
-            storeOrder // do something
+            storeOrder.orderId = delivered.getOrderId();
+            storeOrder.status = "delivered";
             repository().save(storeOrder);
 
 
          });
-        */
 
         
     }

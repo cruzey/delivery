@@ -112,7 +112,7 @@ public class Order  {
         
         repository().findById(accepted.getId()).ifPresent(order->{
             
-            order.status = "order success";
+            order.status = "accepted";
             repository().save(order);
 
 
@@ -128,16 +128,15 @@ public class Order  {
 
         */
 
-        /** Example 2:  finding and process
+        // Example 2:  finding and process
         
-        repository().findById(canceled.get???()).ifPresent(order->{
+        repository().findById(canceled.getId()).ifPresent(order->{
             
-            order // do something
+            order.status = "canceled";
             repository().save(order);
 
 
          });
-        */
 
         
     }
@@ -149,16 +148,16 @@ public class Order  {
 
         */
 
-        /** Example 2:  finding and process
+        // Example 2:  finding and process
         
-        repository().findById(deliveryStarted.get???()).ifPresent(order->{
+        repository().findById(deliveryStarted.getId()).ifPresent(order->{
             
-            order // do something
+            order.status = "deliveryStarted";
             repository().save(order);
 
 
          });
-        */
+        
 
         
     }
@@ -170,16 +169,16 @@ public class Order  {
 
         */
 
-        /** Example 2:  finding and process
+        // Example 2:  finding and process
         
-        repository().findById(delivered.get???()).ifPresent(order->{
+        repository().findById(delivered.getId()).ifPresent(order->{
             
-            order // do something
+            order.status = "delivered";
             repository().save(order);
 
 
          });
-        */
+        
 
         
     }
@@ -191,17 +190,16 @@ public class Order  {
 
         */
 
-        /** Example 2:  finding and process
+        // Example 2:  finding and process
         
-        repository().findById(started.get???()).ifPresent(order->{
+        repository().findById(started.getId()).ifPresent(order->{
             
-            order // do something
+            order.status = "started";
             repository().save(order);
 
 
          });
-        */
-
+        
         
     }
     public static void orderUpdateStatus(Cooked cooked){
@@ -212,16 +210,15 @@ public class Order  {
 
         */
 
-        /** Example 2:  finding and process
+        // Example 2:  finding and process
         
-        repository().findById(cooked.get???()).ifPresent(order->{
+        repository().findById(cooked.getId()).ifPresent(order->{
             
-            order // do something
+            order.status = "cooked";
             repository().save(order);
 
 
          });
-        */
 
         
     }
