@@ -96,8 +96,12 @@
 2. CQRS
 
 3. Compensation / Correlation
+<img width="637" alt="image" src="https://user-images.githubusercontent.com/46294305/203250245-d968a955-db03-41e8-a466-3c27a2f67b0d.png">
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/46294305/203250357-bd5b5a57-9c2f-411c-a928-d3f403959735.png">
+
 
 4. Request / Response
+<img width="481" alt="image" src="https://user-images.githubusercontent.com/46294305/203250036-efddc457-cc47-4742-9c95-8e3c224d409c.png">
 
 5. Circuit Breaker
 
