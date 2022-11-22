@@ -96,7 +96,7 @@
 2. CQRS
 
 3. Compensation / Correlation
-<img width="637" alt="image" src="https://user-images.githubusercontent.com/46294305/203250245-d968a955-db03-41e8-a466-3c27a2f67b0d.png">
+<img width="538" alt="image" src="https://user-images.githubusercontent.com/46294305/203250583-9e58771c-f610-4a7b-b258-f46d5ee9c78b.png">
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/46294305/203250357-bd5b5a57-9c2f-411c-a928-d3f403959735.png">
 
 
