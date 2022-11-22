@@ -106,6 +106,7 @@
 5. Circuit Breaker
 
 6. Gateway
+<img width="275" alt="image" src="https://user-images.githubusercontent.com/46294305/203251398-f304faa9-4e61-484c-8882-5d5c7e3eb651.png">
 
 
 
